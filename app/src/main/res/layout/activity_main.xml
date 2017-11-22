@@ -89,7 +89,8 @@
             android:text="@string/never"
             android:textColor="@color/colorAccent"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            />
 
         <TextView
             android:id="@+id/stopText"
@@ -122,6 +123,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4"
+        android:fadeScrollbars="false"
         >
 
         <LinearLayout
