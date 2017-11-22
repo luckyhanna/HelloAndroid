@@ -170,6 +170,7 @@
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/locationIcon"
                     android:text="@string/address"
+                    android:autoLink="map"
                     android:textColor="#fbfbfb"
                     android:textSize="18sp" />
 
@@ -202,6 +203,7 @@
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/phoneIcon"
                     android:text="@string/phone"
+                    android:autoLink="phone"
                     android:textColor="#fbfbfb"
                     android:textSize="18sp" />
 
@@ -234,6 +236,7 @@
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/webIcon"
                     android:text="@string/web"
+                    android:autoLink="web"
                     android:textColor="#fbfbfb"
                     android:textSize="18sp" />
 
