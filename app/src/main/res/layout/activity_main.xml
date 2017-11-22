@@ -127,21 +127,13 @@
         >
 
         <LinearLayout
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="4"
+            android:layout_height="wrap_content"
             android:layout_gravity="top|center"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
-                android:text="@string/title"
-                android:textColor="#fbfbfb"
-                android:textSize="24sp" />
+
 
             <RelativeLayout
                 android:id="@+id/addressView"
@@ -172,6 +164,7 @@
                     android:text="@string/address"
                     android:autoLink="map"
                     android:textColor="#fbfbfb"
+                    android:textColorLink="#fbfbfb"
                     android:textSize="18sp" />
 
             </RelativeLayout>
@@ -205,6 +198,7 @@
                     android:text="@string/phone"
                     android:autoLink="phone"
                     android:textColor="#fbfbfb"
+                    android:textColorLink="#fbfbfb"
                     android:textSize="18sp" />
 
             </RelativeLayout>
@@ -238,12 +232,26 @@
                     android:text="@string/web"
                     android:autoLink="web"
                     android:textColor="#fbfbfb"
+                    android:textColorLink="#fbfbfb"
                     android:textSize="18sp" />
 
             </RelativeLayout>
 
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/title"
+                android:textStyle="bold"
+                android:textColor="#fbfbfb"
+                android:textSize="12sp"
+                />
 
         </LinearLayout>
 
     </ScrollView>
+
 </LinearLayout>
