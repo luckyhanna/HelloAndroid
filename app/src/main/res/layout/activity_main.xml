@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#303c47"
+    android:background="@color/darkGray"
     android:orientation="vertical"
     tools:context="com.example.hanna.helloandroid.MainActivity">
 
@@ -12,54 +12,54 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/zero_height"
         android:layout_weight="1"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/logo1" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/u" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/d" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/a" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/c" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/i" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/t" />
 
         <ImageView
-            android:layout_width="0dp"
+            android:layout_width="@dimen/zero_height"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:src="@drawable/y" />
@@ -69,7 +69,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/zero_height"
         android:layout_weight="4">
 
         <ImageView
@@ -121,7 +121,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/zero_height"
         android:layout_weight="4"
         android:fadeScrollbars="false"
         >
@@ -163,9 +163,9 @@
                     android:layout_toRightOf="@id/locationIcon"
                     android:text="@string/address"
                     android:autoLink="map"
-                    android:textColor="#fbfbfb"
-                    android:textColorLink="#fbfbfb"
-                    android:textSize="18sp" />
+                    android:textColor="@color/whitish"
+                    android:textColorLink="@color/whitish"
+                    android:textSize="@dimen/font_size" />
 
             </RelativeLayout>
 
@@ -197,9 +197,9 @@
                     android:layout_toRightOf="@id/phoneIcon"
                     android:text="@string/phone"
                     android:autoLink="phone"
-                    android:textColor="#fbfbfb"
-                    android:textColorLink="#fbfbfb"
-                    android:textSize="18sp" />
+                    android:textColor="@color/whitish"
+                    android:textColorLink="@color/whitish"
+                    android:textSize="@dimen/font_size" />
 
             </RelativeLayout>
 
@@ -231,9 +231,9 @@
                     android:layout_toRightOf="@id/webIcon"
                     android:text="@string/web"
                     android:autoLink="web"
-                    android:textColor="#fbfbfb"
-                    android:textColorLink="#fbfbfb"
-                    android:textSize="18sp" />
+                    android:textColor="@color/whitish"
+                    android:textColorLink="@color/whitish"
+                    android:textSize="@dimen/font_size" />
 
             </RelativeLayout>
 
@@ -246,8 +246,8 @@
                 android:layout_marginBottom="10dp"
                 android:text="@string/title"
                 android:textStyle="bold"
-                android:textColor="#fbfbfb"
-                android:textSize="12sp"
+                android:textColor="@color/whitish"
+                android:textSize="@dimen/font_size_small"
                 />
 
         </LinearLayout>
