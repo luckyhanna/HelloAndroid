@@ -6,4 +6,6 @@
 
     <color name="darkGray">#303c47</color>
     <color name="whitish">#fbfbfb</color>
+    <color name="darkNavy">#141d4f</color>
+    <color name="darkestNavy">#060223</color>
 </resources>

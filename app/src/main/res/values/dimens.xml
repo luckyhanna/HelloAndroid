@@ -1,12 +1,13 @@
 <resources>
     <dimen name="zero_height">0dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
 
     <dimen name="textview_width">150dp</dimen>
 
     <dimen name="font_size">18sp</dimen>
     <dimen name="font_size_small">12sp</dimen>
 
-    <dimen name="image_height">100</dimen>
-    <dimen name="image_width">100</dimen>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="image_width">100dp</dimen>
 
 </resources>
