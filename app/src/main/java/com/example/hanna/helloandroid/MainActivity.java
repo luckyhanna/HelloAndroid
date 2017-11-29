@@ -1,9 +1,11 @@
 package com.example.hanna.helloandroid;
 
 import android.app.ActionBar;
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         actionBar.hide();*/
 
         setContentView(R.layout.activity_main);
+        // TODO  - remove underline from links (address, phone, website)
     }
 }
